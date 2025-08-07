@@ -1,0 +1,36 @@
+import random
+
+def generar_contraseña():
+    # Pedir longitud al usuario y validar
+    while True:
+        try:
+            longitud = int(input("Ingresa la longitud de la contraseña (número mayor que 0): "))
+            if longitud > 0:
+                break
+            else:
+                print("Por favor, ingresa un número mayor que 0.")
+        except ValueError:
+            print("Entrada inválida. Por favor, ingresa un número entero.")
+
+    caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+"
+
+    while True:
+        # Generar contraseña aleatoria
+        contraseña = ""
+        for _ in range(longitud):
+            contraseña += random.choice(caracteres)
+
+        print("Contraseña generada:", contraseña)
+
+        # Preguntar al usuario si le gusta la contraseña
+        respuesta = input("¿Te gusta esta contraseña? (s/n): ").lower()
+        if respuesta == 's':
+            print("¡Contraseña aceptada!")
+            break
+        elif respuesta == 'n':
+            print("Generando una nueva contraseña...")
+        else:
+            print("Respuesta no válida, por favor escribe 's' para sí o 'n' para no.")
+
+# Ejecutar función
+generar_contraseña()
