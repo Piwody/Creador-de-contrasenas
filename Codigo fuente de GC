@@ -31,4 +31,4 @@ def generar_contraseña():
             print("Respuesta no válida, por favor escribe 's' para sí o 'n' para no.")
 
 # Ejecutamos función
-generar_contraseña()
+generar_contraseña()   
