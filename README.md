@@ -35,9 +35,14 @@ Añadir interfaz gráfica (Tkinter o PyQt) para hacerlo más amigable.
 4. Si no le gusta, genera una nueva hasta que el usuario confirme.
 5. Finaliza mostrando la contraseña aceptada.
 
+# Video demostrativo del codigo 
+https://drive.google.com/file/d/1K7km7CPqYJHuX3YlLkKB2h3wNwhA9rcw/view?usp=sharing
+
+
+
+
+<img width="667" height="225" alt="image" src="https://github.com/user-attachments/assets/e5fafc13-a090-4e92-b2a7-75afefe0452b" />
 
 <img width="667" height="225" alt="image" src="https://github.com/user-attachments/assets/9a4f8ad6-dd54-4bff-b879-85869a22b31e" />
-
-<img width="1243" height="1264" alt="image" src="https://github.com/user-attachments/assets/e5fafc13-a090-4e92-b2a7-75afefe0452b" />
 
 
