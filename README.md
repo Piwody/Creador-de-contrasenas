@@ -34,3 +34,10 @@ Añadir interfaz gráfica (Tkinter o PyQt) para hacerlo más amigable.
 3. Muestra la contraseña y pregunta si al usuario le gusta.
 4. Si no le gusta, genera una nueva hasta que el usuario confirme.
 5. Finaliza mostrando la contraseña aceptada.
+
+
+<img width="667" height="225" alt="image" src="https://github.com/user-attachments/assets/9a4f8ad6-dd54-4bff-b879-85869a22b31e" />
+
+<img width="1243" height="1264" alt="image" src="https://github.com/user-attachments/assets/e5fafc13-a090-4e92-b2a7-75afefe0452b" />
+
+
